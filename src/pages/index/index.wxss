@@ -1,0 +1,35 @@
+
+.authenticator{
+  font-family: helvetica;
+  /*background-image: url('../../image/background.jpg');*/
+  /*background-size: 100% auto;*/
+  border-bottom: 1px solid #E1E1E1;
+  padding: 13px 14px;
+}
+
+.domain, .account{
+  font-size: 0.65em;
+  padding: 0 0 0 0;
+}
+
+.code{
+  font-size: 2.6em;
+  padding: 7px 0;
+  color: #3D7FF7;
+}
+
+.flex-wrap{
+  display: flex;
+}
+
+.flex-wrap .flex-item{
+  flex: 1;
+}
+
+.flex-wrap .flex-item.auto{
+  flex: auto;
+}
+
+.flex-wrap .flex-item.initial{
+  flex: initial;
+}

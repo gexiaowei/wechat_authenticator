@@ -1,0 +1,10 @@
+<view class="flex-wrap authenticator" wx:for="{{authenticators}}">
+	<view class="flex-item">
+		<view class="domain">{{item.account}}</view>
+		<view class="code">{{item.code}}</view>
+		<view class="account">{{item.account}}</view>
+	</view>
+	<view class="flex-item initial" style="align-self:flex-end">
+		<canvas style="width: 30px; height: 30px;" canvas-id="firstCanvas"></canvas>
+	</view>
+</view>
