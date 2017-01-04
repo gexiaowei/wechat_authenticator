@@ -5,6 +5,12 @@
 		<view class="account">{{item.account}}</view>
 	</view>
 	<view class="flex-item initial" style="align-self:flex-end">
-		<canvas style="width: 30px; height: 30px;" canvas-id="firstCanvas"></canvas>
+		<canvas style="width: 30px; height: 30px;" canvas-id="count_{{item.key}}"></canvas>
 	</view>
+</view>
+<view style="text-align:center; padding:14px;">
+	<button type="primary" size="default" bindtap="scan" hover-class="other-button-hover">Scan QR Code</button>
+</view>
+<view wx:if="{{authenticators.length==0}}">
+	没有码
 </view>
